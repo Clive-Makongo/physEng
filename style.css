@@ -1,0 +1,59 @@
+#canvas {
+  border: 5px solid red;
+  display: block;
+  margin: 2%;
+  background: black;
+  align: center;
+}
+
+h1 {
+  color: red;
+  font-family: monospace;
+  font-size: 50px;
+  margin: 2%;
+  border: 10px double red;
+  width: 15%;
+  padding: 2%;
+}
+
+h1:hover {
+  background-color: red;
+  color: black;
+}
+
+#stats {
+  display: flex;
+}
+
+p {
+  color: red;
+  font-family: monospace;
+  background-color: black;
+  border: 10px double red;
+  margin: 2%;
+  width: 10%;
+  padding: 3%;
+}
+
+.myDiv button {
+  font-family: inherit;
+  font-size: 100%;
+  background: black;
+  border-radius: 10px;
+  transition: 500ms;
+  text-align: center;
+  background-color: black;
+  padding: 2%;
+  color: red;
+}
+
+.myDiv button:hover,
+p:hover {
+  background-color: red;
+  color: black;
+}
+
+.myDiv {
+  text-align: left;
+  padding-left: 15%;
+}
